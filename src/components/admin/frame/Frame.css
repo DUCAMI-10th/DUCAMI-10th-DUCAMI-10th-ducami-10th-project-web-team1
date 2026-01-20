@@ -1,0 +1,87 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.F_bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fafafa;
+}
+.TB {
+  width: 8rem;
+  height: 2rem;
+  background-color: #005461;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 1.1rem;
+  justify-content: center;
+}
+.Button_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.Logo {
+  position: absolute;
+  left: 1.2rem;
+}
+.First:hover {
+  color: #018790;
+  transition: 0.3s all ease-in-out;
+}
+.Second:hover {
+  color: #018790;
+  transition: 0.3s all ease-in-out;
+}
+.Third:hover {
+  color: #018790;
+  transition: 0.3s all ease-in-out;
+}
+.Fourth:hover {
+  color: #018790;
+  transition: 0.3s all ease-in-out;
+}
+.Fifth:hover {
+  color: #018790;
+  transition: 0.3s all ease-in-out;
+}
+.Mainpage {
+  display: flex;
+}
+.Outlet {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.TB.active {
+  color: #018790;
+  transition: 0.3s all ease-in-out;
+}
+.P {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+.BT {
+  width: 8rem;
+  height: 2rem;
+  color: #ababab;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 1.1rem;
+  justify-content: center;
+}
+.BT.active {
+  color: #ffffff;
+  transition: 0.3s all ease-in-out;
+}

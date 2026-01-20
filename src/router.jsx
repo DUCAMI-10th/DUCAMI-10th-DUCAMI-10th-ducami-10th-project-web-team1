@@ -1,9 +1,23 @@
 import { createBrowserRouter } from "react-router-dom";
-import Main_page from "./components/user/main/Main_page.jsx";
+import Frame from "./components/admin/frame/Frame.jsx";
+import Create_post from "./components/admin/post/create/Createpost.jsx";
+import Mangepost from "./components/admin/post/mange/Mangepost.jsx";
+import Mainpage from "./components/user/main/Mainpage.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main_page />,
+    element: <Mainpage />,
+  },
+  {
+    path: "/admin",
+    element: <Frame />,
+    children: [
+      {
+        path: "createpost",
+        element: <Create_post />,
+      },
+      { path: "mangepost", element: <Mangepost /> },
+    ],
   },
 ]);
 
